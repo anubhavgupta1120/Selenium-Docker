@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Flight Reservation Suites">
+    <listeners>
+        <listener class-name="TestComponents.Listeners"/>
+    </listeners>
+    <test name="Flight-Booking">
+        <classes>
+            <class name="TestCasesFolder.FlightBookingTest"/>
+        </classes>
+    </test>
+</suite>

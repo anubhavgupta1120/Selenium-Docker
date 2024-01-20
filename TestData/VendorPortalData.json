@@ -1,0 +1,22 @@
+[
+  {
+    "Username": "sam",
+    "Password": "sam",
+    "ExpectedMonthlyIncome": "$40,000",
+    "ExpectedAnnualIncome": "$215,000",
+    "ExpectedProfitMargin": "50%",
+    "ExpectedAvailableInventory": "18",
+    "SearchKeyword": "Elizabeth",
+    "ExpectedTableCount": "5"
+  },
+  {
+    "Username": "john",
+    "Password": "john",
+    "ExpectedMonthlyIncome": "$3,453",
+    "ExpectedAnnualIncome": "$34,485",
+    "ExpectedProfitMargin": "-16%",
+    "ExpectedAvailableInventory": "67",
+    "SearchKeyword": "Anna",
+    "ExpectedTableCount": "3"
+  }
+]

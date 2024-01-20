@@ -1,0 +1,50 @@
+[
+  {
+    "FirstName": "Anubhav",
+    "LastName": "Gupta",
+    "Email": "selenium@docker.com",
+    "Password": "Docker@11",
+    "Street": "24th South Block",
+    "City": "New York",
+    "State": "New York",
+    "Zipcode": "210001",
+    "Passengers" : "1",
+    "ExpectedPrice" : "$584 USD"
+  },
+  {
+    "FirstName": "Anubhav",
+    "LastName": "Gupta",
+    "Email": "selenium@docker.com",
+    "Password": "Docker@11",
+    "Street": "24th South Block",
+    "City": "New York",
+    "State": "New York",
+    "Zipcode": "210001",
+    "Passengers" : "2",
+    "ExpectedPrice" : "$1169 USD"
+  },
+  {
+    "FirstName": "Anubhav",
+    "LastName": "Gupta",
+    "Email": "selenium@docker.com",
+    "Password": "Docker@11",
+    "Street": "24th South Block",
+    "City": "New York",
+    "State": "New York",
+    "Zipcode": "210001",
+    "Passengers" : "3",
+    "ExpectedPrice" : "$1753 USD"
+  },
+  {
+    "FirstName": "Anubhav",
+    "LastName": "Gupta",
+    "Email": "selenium@docker.com",
+    "Password": "Docker@11",
+    "Street": "24th South Block",
+    "City": "New York",
+    "State": "New York",
+    "Zipcode": "210001",
+    "Passengers" : "4",
+    "ExpectedPrice" : "$2338 USD"
+  }
+]

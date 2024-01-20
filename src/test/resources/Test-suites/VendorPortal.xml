@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Vendor Portal Suites">
+    <listeners>
+        <listener class-name="TestComponents.Listeners"/>
+    </listeners>
+    <test name="Vendor-Portal">
+        <classes>
+            <class name="TestCasesFolder.VendorProtalTest"/>
+        </classes>
+    </test>
+</suite>

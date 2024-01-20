@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="QA Environment" parallel="tests">
+    <listeners>
+        <listener class-name="TestComponents.Listeners"/>
+    </listeners>
+    <test name="Vendor-Portal" thread-count="2">
+        <classes>
+            <class name="TestCasesFolder.VendorProtalTest"/>
+        </classes>
+    </test>
+    <test name="Flight-Booking" thread-count="4">
+        <classes>
+            <class name="TestCasesFolder.FlightBookingTest"/>
+        </classes>
+    </test>
+</suite>
