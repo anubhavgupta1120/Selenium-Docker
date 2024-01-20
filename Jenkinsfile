@@ -32,15 +32,13 @@ pipeline {
             sh "docker images"
         }
         cleanup {
-        /* clean up our workspace */
-            deleteDir()
         /* clean up tmp directory */
             dir("${workspace}@tmp") {
-                   deleteDir()
+                 deleteDir()
             }
         /* clean up script directory */
             dir("${workspace}@script") {
-                    deleteDir()
+                 deleteDir()
             }
         }
     }
