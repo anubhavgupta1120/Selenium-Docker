@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Flight Reservation Suites">
+<suite name="Flight Reservation Suites" parallel="tests" thread-count="4">
     <listeners>
         <listener class-name="TestComponents.Listeners"/>
     </listeners>
